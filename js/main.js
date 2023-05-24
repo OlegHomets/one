@@ -128,7 +128,7 @@ $(document).ready(() => {
 
         let hasError = false;
 
-        if (!name.val().match(/^[a-zA-Z]/)) {
+        if (!name.val().match(/^[a-zA-Zа-яА-Я]/)) {
             name.siblings('.reserve-error').show();
             name.css('border-color', 'red');
             hasError = true;
@@ -191,7 +191,7 @@ $(document).ready(() => {
 
         let hasError = false;
 
-        if (!name1.val().match(/^[a-zA-Z]/)) {
+        if (!name1.val().match(/^[a-zA-Zа-яА-Я]/)) {
             name1.siblings('.reserve-error').show();
             name1.css('border-color', 'red');
             hasError = true;
