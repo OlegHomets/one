@@ -1117,6 +1117,11 @@
     .order-title {
         font-size: 15px;
     }
+    
+    #reservation-container #reservation-cancel {
+        top: 10px;
+        right: 10px;
+    }
 }
 
 /*375-479*/
